@@ -1,0 +1,1981 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47Q10 ]
+[d frameptr 4065 ]
+"34 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/drivers/i2c_simple_master.c
+[e E363 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"53
+[e E358 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"67 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/examples/i2c1_master_example.c
+[e E358 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E363 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"285 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/MCP9808Drivers/MCP9808.c
+[e E13118 _MCP9808_alertID `uc
+ALERT_UPPER 1
+ALERT_LOWER 2
+ALERT_CRIT 3
+]
+"107 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/adcc.c
+[e E12689 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"146 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/i2c1_master.c
+[e E13081 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E363 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E358 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E13099 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"101 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\main.c
+[e E13095 . `uc
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"152 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"531
+[v _efgtoa efgtoa `(v  1 s 1 efgtoa ]
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1546
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\labs.c
+[v _labs labs `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"65 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\main.c
+[v _configRNBD451 configRNBD451 `(v  1 e 1 0 ]
+"93
+[v _readAndSendTemp readAndSendTemp `(v  1 e 1 0 ]
+"132
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"131
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+"168
+[v _ADCC_DischargeSampleCapacitor ADCC_DischargeSampleCapacitor `(v  1 e 1 0 ]
+"34 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+"71
+[v _i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+"185
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+"228
+[v _i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+"66 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"132
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+"142
+[v _putch putch `(v  1 e 1 0 ]
+"147
+[v _EUSART2_DefaultFramingErrorHandler EUSART2_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"149
+[v _EUSART2_DefaultOverrunErrorHandler EUSART2_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"157
+[v _EUSART2_DefaultErrorHandler EUSART2_DefaultErrorHandler `(v  1 e 1 0 ]
+"160
+[v _EUSART2_SetFramingErrorHandler EUSART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+"164
+[v _EUSART2_SetOverrunErrorHandler EUSART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"168
+[v _EUSART2_SetErrorHandler EUSART2_SetErrorHandler `(v  1 e 1 0 ]
+"142 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _rd1RegCompleteHandler@i2c1_master_example$F145 rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F156 rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F162 wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler@i2c1_master_example$F168 wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F179 rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+"58 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+"167 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E358  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E358  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E358  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E358  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E358  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13081  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13081  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13081  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E13081  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E13081  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E13081  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13081  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13081  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13081  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13081  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13081  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13081  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13081  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13081  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13081  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13081  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E363  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E363  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"52 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"66
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"80
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"25 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/MCP9808Drivers/MCP9808.c
+[v _MCP9808_MODULE_Initialize MCP9808_MODULE_Initialize `(c  1 e 1 0 ]
+"68
+[v _MCP9808_Write MCP9808_Write `(c  1 e 1 0 ]
+"79
+[v _MCP9808_Read MCP9808_Read `(c  1 e 1 0 ]
+"172
+[v _MCP9808_SetResolutionRegister MCP9808_SetResolutionRegister `(c  1 e 1 0 ]
+"187
+[v _MCP9808_GetResolutionRegister MCP9808_GetResolutionRegister `(c  1 e 1 0 ]
+"212
+[v _MCP9808_SetResolutionValue MCP9808_SetResolutionValue `(c  1 e 1 0 ]
+"264
+[v _MCP9808_SetLimitRegister MCP9808_SetLimitRegister `(c  1 e 1 0 ]
+"295
+[v _MCP9808_GetLimitRegister MCP9808_GetLimitRegister `(c  1 e 1 0 ]
+"368
+[v _MCP9808_GetTemperatureRegister MCP9808_GetTemperatureRegister `(c  1 e 1 0 ]
+"389
+[v _MCP9808_GetTemperatureValue MCP9808_GetTemperatureValue `(c  1 e 1 0 ]
+"438
+[v _MCP9808_SetConfigurationRegister MCP9808_SetConfigurationRegister `(c  1 e 1 0 ]
+"473
+[v _MCP9808_SetTempHysteresis MCP9808_SetTempHysteresis `(c  1 e 1 0 ]
+"499
+[v _MCP9808_GetTempHysteresis MCP9808_GetTempHysteresis `(c  1 e 1 0 ]
+"611
+[v _MCP9808_EnableContinuousConversionMode MCP9808_EnableContinuousConversionMode `(c  1 e 1 0 ]
+"57 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"150
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"162
+[v _IOCBF5_ISR IOCBF5_ISR `(v  1 e 1 0 ]
+"177
+[v _IOCBF5_SetInterruptHandler IOCBF5_SetInterruptHandler `(v  1 e 1 0 ]
+"185
+[v _IOCBF5_DefaultInterruptHandler IOCBF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+"53 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\power_config.c
+[v _powerSaveEnable powerSaveEnable `(v  1 e 1 0 ]
+"110
+[v _MCP9808powerSaveEnable MCP9808powerSaveEnable `(v  1 e 1 0 ]
+"135
+[v _MCP9808powerSaveDisable MCP9808powerSaveDisable `(v  1 e 1 0 ]
+"159
+[v _RNBD451powerSaveEnable RNBD451powerSaveEnable `(v  1 e 1 0 ]
+"175
+[v _RNBD451powerSaveDisable RNBD451powerSaveDisable `(v  1 e 1 0 ]
+"9890 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18F-Q_DFP/1.17.379/xc8\pic\include\proc\pic18f47q10.h
+[v _RX2PPS RX2PPS `VEuc  1 e 1 @3720 ]
+"11443
+[v _RC2REG RC2REG `VEuc  1 e 1 @3732 ]
+"11481
+[v _TX2REG TX2REG `VEuc  1 e 1 @3733 ]
+"11526
+[v _SP2BRGL SP2BRGL `VEuc  1 e 1 @3734 ]
+"11564
+[v _SP2BRGH SP2BRGH `VEuc  1 e 1 @3735 ]
+"11602
+[v _RC2STA RC2STA `VEuc  1 e 1 @3736 ]
+[s S1203 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"11624
+[u S1212 . 1 `S1203 1 . 1 0 ]
+[v _RC2STAbits RC2STAbits `VES1212  1 e 1 @3736 ]
+"11724
+[v _TX2STA TX2STA `VEuc  1 e 1 @3737 ]
+[s S1182 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"11746
+[u S1191 . 1 `S1182 1 . 1 0 ]
+[v _TX2STAbits TX2STAbits `VES1191  1 e 1 @3737 ]
+"11846
+[v _BAUD2CON BAUD2CON `VEuc  1 e 1 @3738 ]
+"14168
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3762 ]
+"14378
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3763 ]
+[s S971 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"15230
+[u S978 . 1 `S971 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES978  1 e 1 @3773 ]
+[s S1947 . 1 `uc 1 SSPIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"15362
+[s S1956 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S1962 . 1 `S1947 1 . 1 0 `S1956 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1962  1 e 1 @3776 ]
+[s S2249 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"15647
+[u S2256 . 1 `S2249 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES2256  1 e 1 @3781 ]
+[s S1148 . 1 `uc 1 SSPIF 1 0 :1:0 
+`uc 1 BCLIF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"15779
+[s S1157 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S1163 . 1 `S1148 1 . 1 0 `S1157 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES1163  1 e 1 @3784 ]
+"16627
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"16767
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"16919
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"16970
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"17028
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"17199
+[v _PMD0 PMD0 `VEuc  1 e 1 @3804 ]
+"17276
+[v _PMD1 PMD1 `VEuc  1 e 1 @3805 ]
+"17340
+[v _PMD2 PMD2 `VEuc  1 e 1 @3806 ]
+"17385
+[v _PMD3 PMD3 `VEuc  1 e 1 @3807 ]
+"17447
+[v _PMD4 PMD4 `VEuc  1 e 1 @3808 ]
+"17500
+[v _PMD5 PMD5 `VEuc  1 e 1 @3809 ]
+"17897
+[v _RB0PPS RB0PPS `VEuc  1 e 1 @3818 ]
+"17941
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @3819 ]
+"17985
+[v _RB2PPS RB2PPS `VEuc  1 e 1 @3820 ]
+"19271
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"19333
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"19395
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"19457
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"19519
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+[s S898 . 1 `uc 1 IOCBF0 1 0 :1:0 
+`uc 1 IOCBF1 1 0 :1:1 
+`uc 1 IOCBF2 1 0 :1:2 
+`uc 1 IOCBF3 1 0 :1:3 
+`uc 1 IOCBF4 1 0 :1:4 
+`uc 1 IOCBF5 1 0 :1:5 
+`uc 1 IOCBF6 1 0 :1:6 
+`uc 1 IOCBF7 1 0 :1:7 
+]
+"19598
+[u S907 . 1 `S898 1 . 1 0 ]
+[v _IOCBFbits IOCBFbits `VES907  1 e 1 @3853 ]
+[s S919 . 1 `uc 1 IOCBN0 1 0 :1:0 
+`uc 1 IOCBN1 1 0 :1:1 
+`uc 1 IOCBN2 1 0 :1:2 
+`uc 1 IOCBN3 1 0 :1:3 
+`uc 1 IOCBN4 1 0 :1:4 
+`uc 1 IOCBN5 1 0 :1:5 
+`uc 1 IOCBN6 1 0 :1:6 
+`uc 1 IOCBN7 1 0 :1:7 
+]
+"19660
+[u S928 . 1 `S919 1 . 1 0 ]
+[v _IOCBNbits IOCBNbits `VES928  1 e 1 @3854 ]
+[s S940 . 1 `uc 1 IOCBP0 1 0 :1:0 
+`uc 1 IOCBP1 1 0 :1:1 
+`uc 1 IOCBP2 1 0 :1:2 
+`uc 1 IOCBP3 1 0 :1:3 
+`uc 1 IOCBP4 1 0 :1:4 
+`uc 1 IOCBP5 1 0 :1:5 
+`uc 1 IOCBP6 1 0 :1:6 
+`uc 1 IOCBP7 1 0 :1:7 
+]
+"19722
+[u S949 . 1 `S940 1 . 1 0 ]
+[v _IOCBPbits IOCBPbits `VES949  1 e 1 @3855 ]
+"19767
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"19829
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"19891
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"19953
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"20015
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"20263
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"20325
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"20387
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"20449
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"20511
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"20573
+[v _INLVLD INLVLD `VEuc  1 e 1 @3869 ]
+"20635
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3870 ]
+"20697
+[v _ODCOND ODCOND `VEuc  1 e 1 @3871 ]
+"20759
+[v _WPUD WPUD `VEuc  1 e 1 @3872 ]
+"20821
+[v _ANSELD ANSELD `VEuc  1 e 1 @3873 ]
+"20946
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"20984
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3878 ]
+"21016
+[v _ODCONE ODCONE `VEuc  1 e 1 @3879 ]
+"21048
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"21086
+[v _ANSELE ANSELE `VEuc  1 e 1 @3881 ]
+"21270
+[v _FVRCON FVRCON `VEuc  1 e 1 @3884 ]
+[s S1059 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 RDY 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"21294
+[s S1066 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+[u S1074 . 1 `S1059 1 . 1 0 `S1066 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES1074  1 e 1 @3884 ]
+"24332
+[v _ADACT ADACT `VEuc  1 e 1 @3921 ]
+"24384
+[v _ADCLK ADCLK `VEuc  1 e 1 @3922 ]
+"24442
+[v _ADREF ADREF `VEuc  1 e 1 @3923 ]
+"24483
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @3924 ]
+[s S734 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"24497
+[u S740 . 1 `S734 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES740  1 e 1 @3924 ]
+"24522
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @3925 ]
+[s S670 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"24544
+[s S675 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S683 . 1 `S670 1 . 1 0 `S675 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES683  1 e 1 @3925 ]
+"24599
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @3926 ]
+[s S641 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+"24620
+[s S645 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[u S653 . 1 `S641 1 . 1 0 `S645 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES653  1 e 1 @3926 ]
+"24670
+[v _ADACQ ADACQ `VEuc  1 e 1 @3927 ]
+"24740
+[v _ADCAP ADCAP `VEuc  1 e 1 @3928 ]
+"24792
+[v _ADPRE ADPRE `VEuc  1 e 1 @3929 ]
+"24862
+[v _ADPCH ADPCH `VEuc  1 e 1 @3930 ]
+"24920
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @3931 ]
+[s S587 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"24955
+[s S596 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S600 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S602 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S604 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S606 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S609 . 1 `S587 1 . 1 0 `S596 1 . 1 0 `S600 1 . 1 0 `S602 1 . 1 0 `S604 1 . 1 0 `S606 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES609  1 e 1 @3931 ]
+"25022
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @3932 ]
+"25092
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @3933 ]
+"25169
+[v _ADRESL ADRESL `VEuc  1 e 1 @3934 ]
+"25239
+[v _ADRESH ADRESH `VEuc  1 e 1 @3935 ]
+"25301
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @3936 ]
+[s S702 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"25321
+[s S709 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S713 . 1 `S702 1 . 1 0 `S709 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES713  1 e 1 @3936 ]
+"25366
+[v _ADRPT ADRPT `VEuc  1 e 1 @3937 ]
+"25436
+[v _ADCNT ADCNT `VEuc  1 e 1 @3938 ]
+"25513
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @3939 ]
+"25583
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @3940 ]
+"25660
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @3941 ]
+"25730
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @3942 ]
+"25807
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @3943 ]
+"25877
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @3944 ]
+"25954
+[v _ADERRL ADERRL `VEuc  1 e 1 @3945 ]
+"26024
+[v _ADERRH ADERRH `VEuc  1 e 1 @3946 ]
+"26101
+[v _ADACCL ADACCL `VEuc  1 e 1 @3947 ]
+"26171
+[v _ADACCH ADACCH `VEuc  1 e 1 @3948 ]
+"26248
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @3949 ]
+"26318
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @3950 ]
+"27490
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+"27552
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+"27614
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+"27676
+[v _LATD LATD `VEuc  1 e 1 @3973 ]
+"27738
+[v _LATE LATE `VEuc  1 e 1 @3974 ]
+[s S1001 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"27750
+[u S1005 . 1 `S1001 1 . 1 0 ]
+[v _LATEbits LATEbits `VES1005  1 e 1 @3974 ]
+"27770
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"27892
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"28014
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28136
+[v _TRISD TRISD `VEuc  1 e 1 @3978 ]
+"28258
+[v _TRISE TRISE `VEuc  1 e 1 @3979 ]
+"28606
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3985 ]
+"28626
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @3986 ]
+"28816
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3988 ]
+[s S1686 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"28965
+[s S1689 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S1692 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S1701 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S1706 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S1711 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S1714 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S1717 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S1722 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S1727 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S1733 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S1742 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S1748 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S1754 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S1760 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S1765 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A1 1 0 :1:5 
+]
+[s S1768 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S1773 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W1 1 0 :1:2 
+]
+[s S1776 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S1781 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W2 1 0 :1:2 
+]
+[s S1784 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A2 1 0 :1:5 
+]
+[s S1787 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S1792 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE1 1 0 :1:2 
+]
+[s S1795 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS1 1 0 :1:5 
+]
+[s S1798 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S1803 . 1 `S1686 1 . 1 0 `S1689 1 . 1 0 `S1692 1 . 1 0 `S1701 1 . 1 0 `S1706 1 . 1 0 `S1711 1 . 1 0 `S1714 1 . 1 0 `S1717 1 . 1 0 `S1722 1 . 1 0 `S1727 1 . 1 0 `S1733 1 . 1 0 `S1742 1 . 1 0 `S1748 1 . 1 0 `S1754 1 . 1 0 `S1760 1 . 1 0 `S1765 1 . 1 0 `S1768 1 . 1 0 `S1773 1 . 1 0 `S1776 1 . 1 0 `S1781 1 . 1 0 `S1784 1 . 1 0 `S1787 1 . 1 0 `S1792 1 . 1 0 `S1795 1 . 1 0 `S1798 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES1803  1 e 1 @3988 ]
+"29270
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3989 ]
+[s S1406 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"29300
+[s S1412 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S1417 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S1426 . 1 `S1406 1 . 1 0 `S1412 1 . 1 0 `S1417 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES1426  1 e 1 @3989 ]
+"29390
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @3990 ]
+[s S1590 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"29437
+[s S1599 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S1602 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S1609 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S1618 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S1625 . 1 `S1590 1 . 1 0 `S1599 1 . 1 0 `S1602 1 . 1 0 `S1609 1 . 1 0 `S1618 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES1625  1 e 1 @3990 ]
+[s S2202 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"37535
+[s S2210 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"37535
+[s S2214 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"37535
+[u S2218 . 1 `S2202 1 . 1 0 `S2210 1 . 1 0 `S2214 1 . 1 0 ]
+"37535
+"37535
+[v _INTCONbits INTCONbits `VES2218  1 e 1 @4082 ]
+"118 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"119
+[v _flags flags `uc  1 s 1 flags ]
+"144
+[v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
+"55 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\main.c
+[v _adcVal adcVal `VEus  1 e 2 0 ]
+"56
+[v _celsiusValue celsiusValue `VEs  1 e 2 0 ]
+"57
+[v _fahrenheitValue fahrenheitValue `VEs  1 e 2 0 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"60
+[v _MCP9808 MCP9808 `S234  1 e 2 0 ]
+[s S255 _MCP9808_alert_flags 3 `uc 1 tCrit 1 0 `uc 1 tUpper 1 1 `uc 1 tLower 1 2 ]
+"61
+[v _alert_flags alert_flags `S255  1 e 3 0 ]
+"62
+[v _tempval tempval `f  1 e 4 0 ]
+[s S1102 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/eusart2.c
+[u S1107 . 1 `S1102 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart2RxLastError eusart2RxLastError `VES1107  1 e 1 0 ]
+"58
+[v _EUSART2_FramingErrorHandler EUSART2_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _EUSART2_OverrunErrorHandler EUSART2_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _EUSART2_ErrorHandler EUSART2_ErrorHandler `*.38(v  1 e 3 0 ]
+"146 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[16]*.38(E13081  1 e 48 0 ]
+[s S1380 . 42 `[6]*.38(E363 1 callbackTable 18 0 `[6]*.39v 1 callbackPayload 12 18 `us 1 time_out 2 30 `us 1 time_out_value 2 32 `uc 1 address 1 34 `*.39uc 1 data_ptr 2 35 `ui 1 data_length 2 37 `E13081 1 state 1 39 `E358 1 error 1 40 `uc 1 addressNackCheck 1 41 :1:0 
+`uc 1 busy 1 41 :1:1 
+`uc 1 inUse 1 41 :1:2 
+`uc 1 bufferFree 1 41 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S1380  1 e 42 0 ]
+"54 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/pin_manager.c
+[v _IOCBF5_InterruptHandler IOCBF5_InterruptHandler `*.38(v  1 e 3 0 ]
+"184
+[v _counter counter `i  1 e 2 0 ]
+"132 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"138
+[v main@resolution resolution `f  1 a 4 115 ]
+"174
+} 0
+"93
+[v _readAndSendTemp readAndSendTemp `(v  1 e 1 0 ]
+{
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+[v readAndSendTemp@MCPparams MCPparams `S234  1 p 2 107 ]
+"130
+} 0
+"53 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\power_config.c
+[v _powerSaveEnable powerSaveEnable `(v  1 e 1 0 ]
+{
+"55
+[v powerSaveEnable@writeBuffer writeBuffer `[3]uc  1 a 3 33 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"53
+[v powerSaveEnable@i2cParams i2cParams `S234  1 p 2 30 ]
+"72
+} 0
+"159
+[v _RNBD451powerSaveEnable RNBD451powerSaveEnable `(v  1 e 1 0 ]
+{
+"163
+} 0
+"175
+[v _RNBD451powerSaveDisable RNBD451powerSaveDisable `(v  1 e 1 0 ]
+{
+"180
+} 0
+"110
+[v _MCP9808powerSaveEnable MCP9808powerSaveEnable `(v  1 e 1 0 ]
+{
+"112
+[v MCP9808powerSaveEnable@writeBuffer writeBuffer `[3]uc  1 a 3 32 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"110
+[v MCP9808powerSaveEnable@i2cParams i2cParams `S234  1 p 2 30 ]
+"125
+} 0
+"135
+[v _MCP9808powerSaveDisable MCP9808powerSaveDisable `(v  1 e 1 0 ]
+{
+"137
+[v MCP9808powerSaveDisable@writeBuffer writeBuffer `[3]uc  1 a 3 32 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"135
+[v MCP9808powerSaveDisable@i2cParams i2cParams `S234  1 p 2 30 ]
+"149
+} 0
+"389 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/MCP9808Drivers/MCP9808.c
+[v _MCP9808_GetTemperatureValue MCP9808_GetTemperatureValue `(c  1 e 1 0 ]
+{
+"392
+[v MCP9808_GetTemperatureValue@temperature temperature `f  1 a 4 78 ]
+"390
+[v MCP9808_GetTemperatureValue@regVal regVal `us  1 a 2 85 ]
+"391
+[v MCP9808_GetTemperatureValue@signedVal signedVal `s  1 a 2 82 ]
+"393
+[v MCP9808_GetTemperatureValue@errorCode errorCode `c  1 a 1 84 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"389
+[v MCP9808_GetTemperatureValue@i2cParams i2cParams `S234  1 p 2 13 ]
+[s S255 _MCP9808_alert_flags 3 `uc 1 tCrit 1 0 `uc 1 tUpper 1 1 `uc 1 tLower 1 2 ]
+[v MCP9808_GetTemperatureValue@alertFlags alertFlags `*.39S255  1 p 2 15 ]
+[v MCP9808_GetTemperatureValue@tempVal tempVal `*.39f  1 p 2 17 ]
+"434
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 13 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 12 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 3 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 11 ]
+"44
+} 0
+"368 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/MCP9808Drivers/MCP9808.c
+[v _MCP9808_GetTemperatureRegister MCP9808_GetTemperatureRegister `(c  1 e 1 0 ]
+{
+"370
+[v MCP9808_GetTemperatureRegister@rxData rxData `[2]uc  1 a 2 36 ]
+"371
+[v MCP9808_GetTemperatureRegister@errorCode errorCode `c  1 a 1 39 ]
+"369
+[v MCP9808_GetTemperatureRegister@registerPointer registerPointer `uc  1 a 1 38 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"368
+[v MCP9808_GetTemperatureRegister@i2cParams i2cParams `S234  1 p 2 30 ]
+[v MCP9808_GetTemperatureRegister@registerVal registerVal `*.39us  1 p 2 32 ]
+"386
+} 0
+"611
+[v _MCP9808_EnableContinuousConversionMode MCP9808_EnableContinuousConversionMode `(c  1 e 1 0 ]
+{
+"612
+[v MCP9808_EnableContinuousConversionMode@writeBuffer writeBuffer `[3]uc  1 a 3 32 ]
+"613
+[v MCP9808_EnableContinuousConversionMode@errorCode errorCode `c  1 a 1 35 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"611
+[v MCP9808_EnableContinuousConversionMode@i2cParams i2cParams `S234  1 p 2 30 ]
+"631
+} 0
+"79
+[v _MCP9808_Read MCP9808_Read `(c  1 e 1 0 ]
+{
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+[v MCP9808_Read@i2cParams i2cParams `S234  1 p 2 25 ]
+[v MCP9808_Read@pdata pdata `*.39uc  1 p 2 27 ]
+[v MCP9808_Read@length length `uc  1 p 1 29 ]
+"90
+} 0
+"228 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_readNBytes i2c_readNBytes `(v  1 e 1 0 ]
+{
+[v i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_readNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_readNBytes@data data `*.39v  1 p 2 20 ]
+[v i2c_readNBytes@len len `ui  1 p 2 22 ]
+[v i2c_readNBytes@address address `uc  1 a 1 24 ]
+"234
+} 0
+"246 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_MasterRead I2C1_MasterRead `(E358  1 e 1 0 ]
+{
+"249
+} 0
+"131 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/adcc.c
+[v _ADCC_GetSingleConversion ADCC_GetSingleConversion `(us  1 e 2 0 ]
+{
+[v ADCC_GetSingleConversion@channel channel `E12689  1 a 1 wreg ]
+[v ADCC_GetSingleConversion@channel channel `E12689  1 a 1 wreg ]
+"134
+[v ADCC_GetSingleConversion@channel channel `E12689  1 a 1 7 ]
+"154
+} 0
+"168
+[v _ADCC_DischargeSampleCapacitor ADCC_DischargeSampleCapacitor `(v  1 e 1 0 ]
+{
+"172
+} 0
+"65 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\main.c
+[v _configRNBD451 configRNBD451 `(v  1 e 1 0 ]
+{
+"91
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 105 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 99 ]
+"13
+} 0
+"1546 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1549
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 97 ]
+[s S2846 _IO_FILE 0 ]
+"1546
+[v vfprintf@fp fp `*.2S2846  1 p 2 91 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 93 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 95 ]
+"1569
+} 0
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S2895 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `*.2v 1 vp 3 0 `d 1 f 4 0 ]
+"1059
+[v vfpfcnvrt@convarg convarg `S2895  1 a 4 84 ]
+"1050
+[v vfpfcnvrt@cp cp `*.32uc  1 a 2 89 ]
+[v vfpfcnvrt@c c `uc  1 a 1 88 ]
+[s S2846 _IO_FILE 0 ]
+"1048
+[v vfpfcnvrt@fp fp `*.2S2846  1 p 2 78 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 80 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 82 ]
+"1543
+} 0
+"531
+[v _efgtoa efgtoa `(v  1 s 1 efgtoa ]
+{
+[u S2864 flui 4 `d 1 f 4 0 `l 1 u 4 0 ]
+"536
+[v efgtoa@u u `S2864  1 a 4 74 ]
+[v efgtoa@g g `S2864  1 a 4 68 ]
+"535
+[v efgtoa@l l `d  1 a 4 63 ]
+[v efgtoa@h h `d  1 a 4 59 ]
+"536
+[v efgtoa@ou ou `S2864  1 a 4 53 ]
+"534
+[v efgtoa@n n `i  1 a 2 72 ]
+[v efgtoa@i i `i  1 a 2 57 ]
+[v efgtoa@w w `i  1 a 2 51 ]
+[v efgtoa@e e `i  1 a 2 49 ]
+[v efgtoa@m m `i  1 a 2 47 ]
+[v efgtoa@d d `i  1 a 2 45 ]
+[v efgtoa@t t `i  1 a 2 38 ]
+[v efgtoa@p p `i  1 a 2 36 ]
+[v efgtoa@ne ne `i  1 a 2 34 ]
+"533
+[v efgtoa@sign sign `uc  1 a 1 67 ]
+[v efgtoa@nmode nmode `uc  1 a 1 44 ]
+[v efgtoa@mode mode `uc  1 a 1 43 ]
+[v efgtoa@pp pp `uc  1 a 1 42 ]
+[s S2846 _IO_FILE 0 ]
+"531
+[v efgtoa@fp fp `*.2S2846  1 p 2 27 ]
+[v efgtoa@f f `d  1 p 4 29 ]
+[v efgtoa@c c `uc  1 p 1 33 ]
+"812
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 9 ]
+"5
+[v strcpy@s s `*.32Cuc  1 a 2 7 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 3 ]
+[v strcpy@src src `*.32Cuc  1 p 2 5 ]
+"9
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 11 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 9 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 13 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 3 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 5 ]
+[v memcpy@n n `ui  1 p 2 7 ]
+"18
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\labs.c
+[v _labs labs `(l  1 e 4 0 ]
+{
+[v labs@a a `l  1 p 4 3 ]
+"4
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+{
+[u S2981 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"5
+[v floorf@u u `S2981  1 a 4 23 ]
+"7
+[v floorf@m m `ul  1 a 4 17 ]
+"6
+[v floorf@e e `i  1 a 2 21 ]
+"3
+[v floorf@x x `f  1 p 4 13 ]
+"4
+[v floorf@F526 F526 `S2981  1 s 4 F526 ]
+"27
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+{
+[u S2981 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v ___fpclassifyf@u u `S2981  1 a 4 13 ]
+"7
+[v ___fpclassifyf@e e `i  1 a 2 11 ]
+"4
+[v ___fpclassifyf@x x `f  1 p 4 3 ]
+"5
+[v ___fpclassifyf@F465 F465 `S2981  1 s 4 F465 ]
+"11
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 83 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 82 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 13 ]
+"70
+} 0
+"245 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 58 ]
+[v ___flsub@a a `d  1 p 4 62 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 32 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 31 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 30 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 29 ]
+"10
+[v ___fladd@b b `d  1 p 4 17 ]
+[v ___fladd@a a `d  1 p 4 21 ]
+"237
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 3 ]
+"20
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S2686 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S2691 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S2694 . 4 `l 1 i 4 0 `d 1 f 4 0 `S2686 1 fAsBytes 4 0 `S2691 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S2694  1 a 4 52 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 46 ]
+[s S2762 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S2765 . 2 `s 1 i 2 0 `us 1 n 2 0 `S2762 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S2765  1 a 2 56 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 51 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 50 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 45 ]
+"8
+[v ___flmul@b b `d  1 p 4 33 ]
+[v ___flmul@a a `d  1 p 4 37 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 58 ]
+[v ___flge@ff2 ff2 `d  1 p 4 62 ]
+"19
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 7 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 0 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 5 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 12 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 11 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 4 ]
+"11
+[v ___fldiv@b b `d  1 p 4 66 ]
+[v ___fldiv@a a `d  1 p 4 70 ]
+"185
+} 0
+"470 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+"473
+[v dtoa@i i `i  1 a 2 42 ]
+[v dtoa@w w `i  1 a 2 40 ]
+[v dtoa@p p `i  1 a 2 38 ]
+"472
+[v dtoa@s s `uc  1 a 1 44 ]
+[s S2846 _IO_FILE 0 ]
+"470
+[v dtoa@fp fp `*.2S2846  1 p 2 32 ]
+[v dtoa@d d `i  1 p 2 34 ]
+"527
+} 0
+"152
+[v _pad pad `(v  1 s 1 pad ]
+{
+"154
+[v pad@w w `i  1 a 2 30 ]
+[v pad@i i `i  1 a 2 28 ]
+[s S2846 _IO_FILE 0 ]
+"152
+[v pad@fp fp `*.2S2846  1 p 2 21 ]
+[v pad@buf buf `*.39uc  1 p 2 23 ]
+[v pad@p p `i  1 p 2 25 ]
+"183
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 19 ]
+"10
+[v fputs@c c `uc  1 a 1 18 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 14 ]
+[u S2825 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2828 _IO_FILE 12 `S2825 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputs@fp fp `*.2S2828  1 p 2 16 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 5 ]
+[u S2825 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2828 _IO_FILE 12 `S2825 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputc@fp fp `*.2S2828  1 p 2 7 ]
+"24
+} 0
+"142 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/eusart2.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"144
+[v putch@txData txData `uc  1 a 1 4 ]
+"145
+} 0
+"132
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 3 ]
+"139
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 9 ]
+"4
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 8 ]
+[v ___awmod@counter counter `uc  1 a 1 7 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 3 ]
+[v ___awmod@divisor divisor `i  1 p 2 5 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 9 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 8 ]
+[v ___awdiv@counter counter `uc  1 a 1 7 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 3 ]
+[v ___awdiv@divisor divisor `i  1 p 2 5 ]
+"41
+} 0
+"50 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"80
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"57 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"148
+} 0
+"177
+[v _IOCBF5_SetInterruptHandler IOCBF5_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v IOCBF5_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 3 ]
+"179
+} 0
+"66 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"25 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/MCP9808Drivers/MCP9808.c
+[v _MCP9808_MODULE_Initialize MCP9808_MODULE_Initialize `(c  1 e 1 0 ]
+{
+"27
+[v MCP9808_MODULE_Initialize@errorCode errorCode `c  1 a 1 40 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"25
+[v MCP9808_MODULE_Initialize@i2cParams i2cParams `S234  1 p 2 38 ]
+"64
+} 0
+"438
+[v _MCP9808_SetConfigurationRegister MCP9808_SetConfigurationRegister `(c  1 e 1 0 ]
+{
+"439
+[v MCP9808_SetConfigurationRegister@writeBuffer writeBuffer `[3]uc  1 a 3 34 ]
+"440
+[v MCP9808_SetConfigurationRegister@errorCode errorCode `c  1 a 1 37 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"438
+[v MCP9808_SetConfigurationRegister@i2cParams i2cParams `S234  1 p 2 30 ]
+[v MCP9808_SetConfigurationRegister@registerVal registerVal `us  1 p 2 32 ]
+"448
+} 0
+"52 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"167 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"58 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/fvr.c
+[v _FVR_Initialize FVR_Initialize `(v  1 e 1 0 ]
+{
+"62
+} 0
+"66 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"164
+[v _EUSART2_SetOverrunErrorHandler EUSART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 3 ]
+"166
+} 0
+"160
+[v _EUSART2_SetFramingErrorHandler EUSART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 3 ]
+"162
+} 0
+"168
+[v _EUSART2_SetErrorHandler EUSART2_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 3 ]
+"170
+} 0
+"62 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"105
+} 0
+"212 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/MCP9808Drivers/MCP9808.c
+[v _MCP9808_SetResolutionValue MCP9808_SetResolutionValue `(c  1 e 1 0 ]
+{
+"213
+[v MCP9808_SetResolutionValue@writeBuffer writeBuffer `uc  1 a 1 42 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"212
+[v MCP9808_SetResolutionValue@i2cParams i2cParams `S234  1 p 2 36 ]
+[v MCP9808_SetResolutionValue@resolutionVal resolutionVal `f  1 p 4 38 ]
+"231
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 3 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 7 ]
+"12
+} 0
+"172 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/MCP9808Drivers/MCP9808.c
+[v _MCP9808_SetResolutionRegister MCP9808_SetResolutionRegister `(c  1 e 1 0 ]
+{
+"174
+[v MCP9808_SetResolutionRegister@writeBuffer writeBuffer `[2]uc  1 a 2 34 ]
+"173
+[v MCP9808_SetResolutionRegister@errorCode errorCode `c  1 a 1 33 ]
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+"172
+[v MCP9808_SetResolutionRegister@i2cParams i2cParams `S234  1 p 2 30 ]
+[v MCP9808_SetResolutionRegister@registerVal registerVal `uc  1 p 1 32 ]
+"184
+} 0
+"68
+[v _MCP9808_Write MCP9808_Write `(c  1 e 1 0 ]
+{
+[s S234 _MCP9808_i2c_params 2 `uc 1 i2cAddress 1 0 `uc 1 i2cBusID 1 1 ]
+[v MCP9808_Write@i2cParams i2cParams `S234  1 p 2 25 ]
+[v MCP9808_Write@pdata pdata `*.39uc  1 p 2 27 ]
+[v MCP9808_Write@length length `uc  1 p 1 29 ]
+"77
+} 0
+"71 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_writeNBytes i2c_writeNBytes `(v  1 e 1 0 ]
+{
+[v i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_writeNBytes@address address `uc  1 a 1 wreg ]
+[v i2c_writeNBytes@data data `*.39v  1 p 2 20 ]
+[v i2c_writeNBytes@len len `ui  1 p 2 22 ]
+[v i2c_writeNBytes@address address `uc  1 a 1 24 ]
+"78
+} 0
+"283 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.38(E363  1 p 3 9 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 12 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E358  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E358  1 a 1 4 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 3 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E358  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E358  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E358  1 a 1 19 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 18 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13081  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13081  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13081  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13081  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13081  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13081  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13081  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13081  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13081  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E13081  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E13081  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E13081  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13081  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13081  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13081  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13081  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 3 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E363  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 14 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E363  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F179 rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@i2c1_master_example$F179@ptr ptr `*.39v  1 p 2 14 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F162 wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@i2c1_master_example$F162@ptr ptr `*.39v  1 p 2 14 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F156 rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@i2c1_master_example$F156@ptr ptr `*.39v  1 p 2 14 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler@i2c1_master_example$F145 rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@i2c1_master_example$F145@ptr ptr `*.39v  1 p 2 14 ]
+"147
+} 0
+"185 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@p p `*.39v  1 p 2 14 ]
+"190
+} 0
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@p p `*.39v  1 p 2 14 ]
+"156
+} 0
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@p p `*.39v  1 p 2 14 ]
+"124
+} 0
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@p p `*.39v  1 p 2 14 ]
+"86
+} 0
+"34
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@p p `*.39v  1 p 2 14 ]
+"39
+} 0
+"163 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _wr2RegCompleteHandler@i2c1_master_example$F168 wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@i2c1_master_example$F168@ptr ptr `*.39v  1 p 2 14 ]
+"168
+} 0
+"273 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.38(E363  1 p 3 9 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 12 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E13099  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E13099  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.38(E363  1 p 3 3 ]
+[v I2C1_SetCallback@ptr ptr `*.39v  1 p 2 6 ]
+"300
+[v I2C1_SetCallback@idx idx `E13099  1 a 1 8 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 3 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 5 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E358  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E358  1 a 1 3 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"58 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"69
+} 0
+"150 C:\Users\M68016\OneDrive - Microchip Technology Inc\Documents\RNDB NUS DE CE NU MAI MERE.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"157
+} 0
+"162
+[v _IOCBF5_ISR IOCBF5_ISR `(v  1 e 1 0 ]
+{
+"172
+} 0
+"185
+[v _IOCBF5_DefaultInterruptHandler IOCBF5_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"190
+} 0
