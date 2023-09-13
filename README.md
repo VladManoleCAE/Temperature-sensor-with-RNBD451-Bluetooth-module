@@ -14,11 +14,14 @@ The sensor, BLE module and the PIC MCU are in deep sleep mode until the wake up 
 
 
 Some Applications where this implementation can be used are: 
+
 Industrial monitoring:
 ![image](https://github.com/VladManoleCAE/Temperature-sensor-with-RNBD451-Bluetooth-module/assets/133333286/e09e019c-74ca-469a-b4a7-9fc93106b9f6)
 
+
 Automotive:
 ![image](https://github.com/VladManoleCAE/Temperature-sensor-with-RNBD451-Bluetooth-module/assets/133333286/9d5f008e-598b-42eb-add0-92afd3e3c5e2)
+
 
 IoT:
 ![image](https://github.com/VladManoleCAE/Temperature-sensor-with-RNBD451-Bluetooth-module/assets/133333286/deb14a95-2dfa-4faa-abe8-8126c61dd980)
