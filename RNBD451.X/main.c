@@ -84,7 +84,7 @@ void configRNBD451()
     printf("$$$"); 
     __delay_ms(100);
     
-    //Set Low Power Mode Enable . In this configuration, the RNDB451 will not receive any other commands
+    //Set Low Power Mode EnableÂ . In this configuration, the RNDB451 will not receive any other commands
     //RF Transmitter will remain in low power mode until RNBD451powerSaveDisable() is called
     printf("SO,1\n");
 
@@ -156,7 +156,7 @@ void main(void)
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
     
-    int counter = 0;
+    int counter = 0; //Interupt on change check
     
     RNBD451powerSaveDisable();
 
